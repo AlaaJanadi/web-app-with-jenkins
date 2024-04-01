@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class HtmlEndpoint {
     @GetMapping("/index")
     public String home() {
-        return "index";
+        return "index"
     }
 
     @PostMapping("/takeIt")
